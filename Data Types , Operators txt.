@@ -1,0 +1,42 @@
+# Data-Types-Operators
+
+Deyisən (Variable) nədir?
+
+Variable ingilis dilinde deyisen deyisken demekdir.Ve adindan gorunduyu kimi is prinsipi deyismekden ibaretdir.
+  
+  
+  a,b,c: integer;
+  d: real;
+  e,f: integer;
+  s,s1: string;
+  ch: char;    bunlar deyisken tiplerdi hansiki program dilinde bucure isare olunur ve qebul edilir.
+  Program dilinden istifade ederken sizi "var" kelimesi yaniltmasin bu variable sozunun kisaltmasi kimi qebul  olunub.
+  Deyisen tipler yeni Variable hem tam hemde kesirli ededlerden ibaretdir.int, uint, short, ushort, long, ulong bunlar tam
+  float, double, decimal bunlar ise kesirli ededlerle ifade olunur
+
+2 ##Riyazi opretorlar.
+
+byte 0 dan 255 e kimi olan reqemleri gostermek bacarigina malikdir
+sbyte  ise -128 den 127 qeder olan reqemleri
+short -32,768 32,767 ye qeder olan reqemleri
+ushort 0 dan 65535 e qeder olan reqemleri
+ulong 0 to 18446744073709551615
+long  bu operatorlarda -9223372036854775808 to 9223372036854775807
+long
+bunlar yalniz adi hesablamari hel ede bilir meselen 3+6=9 amma kesr ve yaxud qaliqli birsey olsa bu onu hesablamir
+meselen 3/2 olduqda yalniz 1 goturecek kesr ededleri tapmaq ucun ise float decimal double dan isdifade olunur.
+char operatorundan ise simvolari yazmaq ucun isdifade olunur.
+bool operatoru ise muqayise etmek ucun istifade olunur
+
+
+3 ##mentiqi operatorlar ise bunlardir  + - / * % bu operatorlardi.
++ - / * bildiyimiz kimi toplama cixma bolme ve vurma emaliyatlarin yerine yetirir ki bunlarida herbirimiz bilirik
+% operatoru ise qaliqi gosterir meselen 3%2 burda 1 gosterecek
+
+4 ##muqayise operatorlari ise bunlardir.
+== bu operatorda her hansi 1 ri uygun gelerse cavab sef cixir.
+cavabin duzgun cixmasi ucun 2 sertinde uygun gelmeyi lazimdir
+
+!= bu operator her hansi bir cavabin eksini tapmaq ucundur.
+< > bu operatorlar ise boyuk ve yaxud kicik oldugunu gosterir
+<= >= bunlar ise  boyuk beraber ve ya kicik beraber oldugunu gosterir.
